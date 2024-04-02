@@ -47,7 +47,7 @@ p {
   width: 100%;
 }
 
-/***** HOME PAGE *****/
+/***** HEADER *****/
 
 #header {
   display: flex;
@@ -56,6 +56,10 @@ p {
   padding: 20px 80px;
   background-color: #e3e6f3;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  z-index: 5;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 #header #navbar {
@@ -96,6 +100,41 @@ p {
   bottom: -4px;
   left: 20px;
   background-color: #088178;
+}
+
+/***** HOME PAGE *****/
+
+#hero {
+  background-image: url("../assets/images/hero/hero.png");
+  background-position: top 25% right 0%;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#hero h4 {
+  padding-bottom: 15px;
+}
+
+#hero h1 {
+  color: #088178;
+}
+
+#hero button {
+  background-image: url("../assets/images/button/button-1.png");
+  background-color: transparent;
+  color: #088178;
+  border: none;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
 }
 
 /***** SHOP PAGE *****/
