@@ -128,6 +128,7 @@ button.white {
 }
 
 /***** HOME PAGE *****/
+/***** HERO SECTION *****/
 
 #hero {
   background-image: url("../assets/images/hero/hero.png");
@@ -161,6 +162,8 @@ button.white {
   font-weight: 700;
   font-size: 15px;
 }
+
+/***** FEATURES SECTION *****/
 
 #feature {
   display: flex;
@@ -217,6 +220,8 @@ button.white {
 #feature .fe-box:nth-child(6) h6 {
   background-color: #ffe4cd;
 }
+
+/***** FEATURED PRODUCTS SECTION *****/
 
 #product1 {
   text-align: center;
@@ -292,6 +297,8 @@ button.white {
   background-color: #e8f6ea;
 }
 
+/***** BANNER SECTION *****/
+
 #banner {
   display: flex;
   flex-direction: column;
@@ -324,6 +331,8 @@ button.white {
   background-color: #088178;
   color: #ffffff;
 }
+
+/***** SMALL BANNERS SECTION *****/
 
 #sm-banner {
   display: flex;
