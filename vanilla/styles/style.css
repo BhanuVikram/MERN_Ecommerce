@@ -332,16 +332,16 @@ button.white {
   color: #ffffff;
 }
 
-/***** SMALL BANNERS SECTION *****/
+/***** CTA BANNERS SECTION *****/
 
-#sm-banner {
+#two-banners {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   width: 100%;
 }
 
-#sm-banner .banner-box {
+#two-banners .banner-box {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -354,31 +354,31 @@ button.white {
   padding: 30px;
 }
 
-#sm-banner h4 {
+#two-banners h4 {
   font-size: 20px;
   font-weight: 300;
   color: #ffffff;
 }
 
-#sm-banner h2 {
+#two-banners h2 {
   font-size: 28px;
   font-weight: 800;
   color: #ffffff;
 }
 
-#sm-banner span {
+#two-banners span {
   padding-bottom: 15px;
   font-size: 14px;
   font-weight: 500;
   color: #ffffff;
 }
 
-#sm-banner .banner-box:hover button {
+#two-banners .banner-box:hover button {
   background-color: #088178;
   border: 1px solid #088178;
 }
 
-#sm-banner .banner-box:nth-child(2) {
+#two-banners .banner-box:nth-child(2) {
   background-image: url("../assets/images/banner/banner-5.jpg");
 }
 
