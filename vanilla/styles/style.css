@@ -488,6 +488,77 @@ button.white {
   background-color: #088178;
 }
 
+/***** FOOTER SECTION *****/
+
+footer .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .wrapper .column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+footer .logo {
+  margin-bottom: 30px;
+}
+
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+}
+
+footer a {
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-decoration: none;
+  color: #222222;
+}
+
+footer a:hover {
+  color: #088178;
+}
+
+footer .follow-us {
+  margin-top: 20px;
+}
+
+footer .follow-us .social-icons i {
+  color: #465b52;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+footer .follow-us .social-icons i:hover {
+  color: #088178;
+}
+
+footer .install .badges img {
+  width: 120px;
+  margin: 5px 5px 0 0;
+}
+
+footer .install .payment-methods {
+  margin-top: 20px;
+}
+
+footer .install .payment-methods img {
+  width: 170px;
+}
+
+footer .copyright {
+  text-align: center;
+}
+
 /***** SHOP PAGE *****/
 
 /***** SINGLE PRODUCT *****/
